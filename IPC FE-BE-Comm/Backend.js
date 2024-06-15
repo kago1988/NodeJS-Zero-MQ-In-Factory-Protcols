@@ -21,7 +21,7 @@ const server = net.createServer((socket) => {
 });
 
 function processGameLogic(data) {
-  // Placeholder for game logic processing
+  // Placeholder for logic processing
   return `Processed: ${data}`;
 }
 

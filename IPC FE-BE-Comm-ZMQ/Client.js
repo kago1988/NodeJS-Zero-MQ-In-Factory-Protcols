@@ -14,5 +14,5 @@ console.log(`Sent: ${message}`);
 
 requester.on('message', (data) => {
   console.log(`Frontend received: ${data}`);
-  // Update game state or UI based on backend response
+  // Update logic state or UI based on backend response
 });

@@ -18,6 +18,6 @@ responder.on('message', (data) => {
 });
 
 function processGameLogic(data) {
-  // Placeholder for game logic processing
+  // Placeholder for logic processing
   return `Processed: ${data}`;
 }

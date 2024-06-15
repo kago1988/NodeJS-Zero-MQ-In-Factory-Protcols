@@ -12,7 +12,7 @@ client.on('connect', () => {
 
 client.on('data', (data) => {
   console.log(`Frontend received: ${data}`);
-  // Update game state or UI based on backend response
+  // Update logic state or UI based on backend response
 });
 
 client.on('error', (err) => {
